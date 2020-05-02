@@ -204,3 +204,30 @@ button:hover {
 .form-wrapper input {
   padding: 1rem 3rem;
 }
+
+/* Footer */
+footer {
+  color: #fff;
+  background: rgba(19, 28, 39, 1);
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  min-height: 10vh;
+  margin: 0 auto;
+  padding: 2rem;
+}
+footer h5,
+footer ul {
+  flex: 1 1 40rem;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}

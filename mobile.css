@@ -20,4 +20,17 @@
     background: rgba(19, 28, 39, 0.9);
     padding: 1.5rem;
   }
+
+  /* Form Section */
+  .form-wrapper {
+    width: 100%;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+  }
+  footer h5 {
+    padding-bottom: 3rem;
+  }
 }
