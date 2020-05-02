@@ -122,6 +122,11 @@ button:hover {
   width: 90%;
   margin: auto;
 }
+.locations-header h2,
+.locations-header h3 {
+  position: relative;
+  z-index: 2;
+}
 .locations-header h2 {
   text-decoration: underline;
   text-decoration-thickness: 0.5rem;
