@@ -169,6 +169,13 @@ button:hover {
 }
 
 /* Benefits Section */
+/* Fix for Sticky Nav */
+#benefits::before {
+  content: '';
+  display: block;
+  height: 10vh;
+  margin: -10vh 0 0;
+}
 .benefits-header {
   display: flex;
   flex-direction: column;
