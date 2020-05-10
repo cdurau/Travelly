@@ -284,3 +284,16 @@ footer ul {
   align-items: center;
   list-style: none;
 }
+
+nav a:focus,
+button:focus {
+  outline-style: solid;
+  outline-color: #fff;
+}
+button:focus {
+  background: #2c3f57;
+}
+input:focus {
+  outline-style: solid;
+  outline-color: #4c6e97;
+}
